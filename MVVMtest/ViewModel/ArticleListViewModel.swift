@@ -24,7 +24,7 @@ class ArticleListViewModel: ObservableObject {
     
     private func fetchTopHeadlines() {
         
-        guard let url = URL(string: "https://newsapi.org/v2/top-headlines?country=us&apiKey=InsertYourAPIKeyHere") else {
+        guard let url = URL(string: "https://newsapi.org/v2/top-headlines?country=us&apiKey=8d2f981965af44198dad0c58b3f2c66f") else {
             fatalError("URL is not correct!")
         }
         

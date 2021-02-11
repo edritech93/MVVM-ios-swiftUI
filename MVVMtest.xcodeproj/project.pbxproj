@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D464261725D4C5340036ACC8 /* MVVMtestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464261625D4C5340036ACC8 /* MVVMtestApp.swift */; };
-		D464261925D4C5340036ACC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464261825D4C5340036ACC8 /* ContentView.swift */; };
 		D464261B25D4C5350036ACC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D464261A25D4C5350036ACC8 /* Assets.xcassets */; };
 		D464261E25D4C5350036ACC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D464261D25D4C5350036ACC8 /* Preview Assets.xcassets */; };
 		D464262925D4C5350036ACC8 /* MVVMtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464262825D4C5350036ACC8 /* MVVMtestTests.swift */; };
 		D464263425D4C5350036ACC8 /* MVVMtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464263325D4C5350036ACC8 /* MVVMtestUITests.swift */; };
+		D4B34FA725D4E445006FD756 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B34FA625D4E445006FD756 /* ContentView.swift */; };
+		D4B34FBC25D4EF4F006FD756 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B34FBB25D4EF4F006FD756 /* WebService.swift */; };
+		D4B34FC525D4EFBA006FD756 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B34FC425D4EFBA006FD756 /* NewsResponse.swift */; };
+		D4B34FCE25D4EFF5006FD756 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B34FCD25D4EFF5006FD756 /* ArticleViewModel.swift */; };
+		D4B34FD625D4F054006FD756 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B34FD525D4F054006FD756 /* ArticleListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,6 @@
 /* Begin PBXFileReference section */
 		D464261325D4C5340036ACC8 /* MVVMtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D464261625D4C5340036ACC8 /* MVVMtestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMtestApp.swift; sourceTree = "<group>"; };
-		D464261825D4C5340036ACC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D464261A25D4C5350036ACC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D464261D25D4C5350036ACC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D464261F25D4C5350036ACC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +48,11 @@
 		D464262F25D4C5350036ACC8 /* MVVMtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D464263325D4C5350036ACC8 /* MVVMtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMtestUITests.swift; sourceTree = "<group>"; };
 		D464263525D4C5350036ACC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B34FA625D4E445006FD756 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4B34FBB25D4EF4F006FD756 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		D4B34FC425D4EFBA006FD756 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		D4B34FCD25D4EFF5006FD756 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		D4B34FD525D4F054006FD756 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +103,11 @@
 		D464261525D4C5340036ACC8 /* MVVMtest */ = {
 			isa = PBXGroup;
 			children = (
+				D4B34FE025D4F271006FD756 /* View */,
+				D4B34FCC25D4EFEB006FD756 /* ViewModel */,
+				D4B34FC325D4EFAB006FD756 /* Model */,
+				D4B34FBA25D4EF2F006FD756 /* Service */,
 				D464261625D4C5340036ACC8 /* MVVMtestApp.swift */,
-				D464261825D4C5340036ACC8 /* ContentView.swift */,
 				D464261A25D4C5350036ACC8 /* Assets.xcassets */,
 				D464261F25D4C5350036ACC8 /* Info.plist */,
 				D464261C25D4C5350036ACC8 /* Preview Content */,
@@ -128,6 +139,39 @@
 				D464263525D4C5350036ACC8 /* Info.plist */,
 			);
 			path = MVVMtestUITests;
+			sourceTree = "<group>";
+		};
+		D4B34FBA25D4EF2F006FD756 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D4B34FBB25D4EF4F006FD756 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D4B34FC325D4EFAB006FD756 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4B34FC425D4EFBA006FD756 /* NewsResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4B34FCC25D4EFEB006FD756 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4B34FD525D4F054006FD756 /* ArticleListViewModel.swift */,
+				D4B34FCD25D4EFF5006FD756 /* ArticleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D4B34FE025D4F271006FD756 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4B34FA625D4E445006FD756 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D464261925D4C5340036ACC8 /* ContentView.swift in Sources */,
+				D4B34FD625D4F054006FD756 /* ArticleListViewModel.swift in Sources */,
+				D4B34FA725D4E445006FD756 /* ContentView.swift in Sources */,
+				D4B34FC525D4EFBA006FD756 /* NewsResponse.swift in Sources */,
+				D4B34FBC25D4EF4F006FD756 /* WebService.swift in Sources */,
+				D4B34FCE25D4EFF5006FD756 /* ArticleViewModel.swift in Sources */,
 				D464261725D4C5340036ACC8 /* MVVMtestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

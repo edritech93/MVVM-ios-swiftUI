@@ -10,11 +10,11 @@ import SwiftUI
 import Combine
 
 struct ContentView: View {
-    @ObservableObject var model = ArticleListViewModel()
     
-//    var model = ArticleListViewModel()
+    @ObservedObject var model = ArticleListViewModel()
     
     var body: some View {
+        Text("News")
         List(model.articles) { article in
             
             VStack(alignment: .leading) {
